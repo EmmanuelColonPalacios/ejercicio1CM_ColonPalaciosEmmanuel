@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         screenSplash.setOnExitAnimationListener { splashScreenView ->
             // Splash screen
             startActivity(Intent(this, PaymentActivity2::class.java))
-            finish()
+            finish() //hola
         }
     }
 }
