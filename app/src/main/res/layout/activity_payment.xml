@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/amountToPayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monto a pagar: $0.00"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:background="@drawable/bg_rounded_corner"
+        style="@style/TextViewStyleLarge"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/black"/>
+
+    <EditText
+        android:id="@+id/cardHolderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/card_holder_name"
+        style="@style/EditTextStyle"
+        android:background="@drawable/bg_rounded_corner"
+        android:padding="12dp"
+        android:layout_margin="15dp" />
+
+    <EditText
+        android:id="@+id/cardNumber"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/bg_rounded_corner"
+        android:hint="@string/card_number"
+        android:padding="12dp" />
+
+    <Spinner
+        android:id="@+id/cardType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/card_types"
+        android:background="@drawable/bg_rounded_corner"
+        android:padding="12dp"
+        android:layout_margin="60dp"
+        android:gravity="center_vertical" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+
+        <EditText
+            android:id="@+id/expiryDate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/expiry_date"
+            style="@style/EditTextStyleSmall"
+            android:background="@drawable/bg_rounded_corner"
+            android:padding="10dp"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/cvv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/cvv"
+            style="@style/EditTextStyleSmall"
+            android:background="@drawable/bg_rounded_corner"
+            android:padding="10dp"
+            android:layout_margin="8dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        style="@style/EditTextStyle"
+        android:background="@drawable/bg_rounded_corner"
+        android:padding="12dp"
+        android:layout_margin="15dp" />
+
+    <Button
+        android:id="@+id/payButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pay"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/cuadros"
+        android:padding="12dp"
+        android:layout_margin="25dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <style name="Theme.Ejercicio1CM" parent="android:Theme.Material.Light.NoActionBar" />
+
+        <!-- Splash Screen -->
+        <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+            <item name="windowSplashScreenBackground">@color/splashScreen</item>
+            <item name="windowSplashScreenAnimatedIcon">@drawable/memilogo</item>
+            <item name="windowSplashScreenAnimationDuration">300</item>
+            <item name="postSplashScreenTheme">@style/Theme.Ejercicio1CM</item>
+        </style>
+
+    <!-- Texto cajas -->
+        <style name="EditTextStyle">
+            <item name="android:textColor">@color/black</item>
+            <item name="android:textSize">16sp</item>
+        </style>
+
+
+        <style name="Theme.AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+            <!-- Otros atributos de estilo aquí -->
+
+            <!-- Color de fondo de la ventana de la aplicación -->
+            <item name="android:windowBackground">@drawable/background</item>
+        </style>
+
+    <!-- Textos CVV y Expiración -->
+        <style name="EditTextStyleSmall" parent="Widget.AppCompat.EditText">
+            <item name="android:layout_width">0dp</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textSize">14sp</item> <!-- Tamaño del texto más pequeño -->
+            <item name="android:background">@drawable/bg_rounded_corner</item>
+            <item name="android:padding">8dp</item>
+            <item name="android:gravity">center</item> <!-- Alinea el texto al centro -->
+        </style>
+
+    <!-- Cantidad de dinero -->
+        <style name="TextViewStyleLarge" parent="Widget.AppCompat.TextView">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textSize">25sp</item> <!-- Tamaño del texto agrandado -->
+        </style>
+
+    <!-- Spinner tarjetas -->
+        <style name="SpinnerItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+            <item name="android:layout_gravity">center_vertical</item>
+        </style>
+
+</resources>

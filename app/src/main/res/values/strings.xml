@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Paga Ya!</string>
+    <string name="card_holder_name">Nombre del tarjetahabiente</string>
+    <string name="card_number">Número de la tarjeta</string>
+    <string name="expiry_date">Fecha de expiración</string>
+    <string name="cvv" translatable="false">CVV</string>
+    <string name="email">Correo electrónico</string>
+    <string name="pay">Pagar</string>
+    <string name="title_activity_payment2" translatable="false">PaymentActivity2</string>
+    <string name="title_activity_payment_result2">PaymentResultActivity2</string>
+
+    <!-- Tipos de tarjetas -->
+    <string-array name="card_types">
+        <item>Visa</item>
+        <item>MasterCard</item>
+        <item>American Express</item>
+        <item>Nu</item>
+        <item>Plata</item>
+        <item>DidiCard</item>
+    </string-array>
+
+    <!-- Mensajes de error -->
+    <string name="error_card_holder_name">Por favor, ingresa un nombre completo válido</string>
+    <string name="error_card_number">Por favor, ingresa un número de tarjeta válido (16 dígitos)</string>
+    <string name="error_expiry_date">Por favor, ingresa una fecha de vencimiento válida (MM/AA)</string>
+    <string name="error_cvv">Por favor, ingresa un CVV válido (3 o 4 dígitos)</string>
+    <string name="error_email">Por favor, ingresa un correo electrónico válido</string>
+    <string name="error_invalid_data">Por favor, ingresa datos válidos</string>
+
+    <!-- Mensajes de resultado del pago -->
+    <string name="payment_successful_message">Pago exitoso!</string>
+    <string name="payment_unsuccessful_message">Pago no exitoso. Por favor, intenta de nuevo.</string>
+    <string name="payment_information">Información de pago: \n\nNombre del tarjetahabiente: %1$s \nTipo de tarjeta: %2$s \nCorreo electrónico: %3$s</string>
+
+
+    <!-- Mensajes varios PaymentActivity -->
+    <string name="amount_to_pay_label">Monto a pagar: $%s</string>
+
+
+</resources>

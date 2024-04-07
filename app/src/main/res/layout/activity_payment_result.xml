@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView para el mensaje de pago exitoso o no exitoso -->
+    <TextView
+        android:id="@+id/paymentResultMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:background="@drawable/bg_rounded_corner"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/black"
+        android:text="Resultado del Pago" />
+
+    <!-- TextView para la información del pago -->
+    <TextView
+        android:id="@+id/paymentInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/tryAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pago nuevo"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/cuadros"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center" />
+</LinearLayout>

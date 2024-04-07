@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">지불하다!</string>
+    <string name="card_holder_name">" 카드 소지자 이름"</string>
+    <string name="card_number">" 카드 번호"</string>
+    <string name="expiry_date">만료일</string>
+    <string name="email">" 이메일"</string>
+    <string name="pay">" 지불하다"</string>
+    <string name="title_activity_payment_result2">%1$s\\n카드 유형: %2$s\\n이메일: %3$s</string>
+    <string name="error_card_holder_name">" 올바른 이름을 입력하세요."</string>
+    <string name="error_card_number">" 유효한 카드번호(16자리)를 입력하세요. "</string>
+    <string name="error_expiry_date">" 유효한 만료일(MM/YY)을 입력하세요."</string>
+    <string name="error_cvv">유효한 CVV(3자리 또는 4자리)를 입력하세요.</string>
+    <string name="error_email">유효한 이메일을 입력해주세요</string>
+    <string name="error_invalid_data">" 유효한 데이터를 입력하세요."</string>
+    <string name="payment_successful_message">결제 성공! \\n\\n카드 소유자 이름</string>
+    <string name="payment_unsuccessful_message">" 결제가 실패했습니다. 다시 시도해 주세요."</string>
+    <string name="amount_to_pay_label">" 지불 금액: $%s"</string>
+</resources>
